@@ -1,9 +1,11 @@
-function App() {
+import "../styles/App.css";
+import Layout from "./Layout";
+import Home from "./pages/Home";
+
+export default function App() {
   return (
-    <div>
-      Hello
-    </div>
+    <Layout>
+      <Home />
+    </Layout>
   );
 }
-
-export default App;
