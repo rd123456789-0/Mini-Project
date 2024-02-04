@@ -7,9 +7,7 @@ import Login from "./pages/Login";
 import Quiz from "./pages/Quiz";
 import { Route, Routes } from "react-router-dom";
 import { AuthProvider } from "../contexts/AuthContext";
-import { useState } from "react";
 export default function App() {
-  const [qna,setQna] = useState();
   return (
     <AuthProvider >
       <Layout>
@@ -17,7 +15,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/quiz/:id" element={<Quiz />} setQna={setQna} />
+          <Route path="/quiz/:id" element={<Quiz />} />
           <Route path="/result/:id" element={<Result />} /> 
         </Routes>
       </Layout>

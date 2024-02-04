@@ -9,6 +9,7 @@ import MiniPlayer from "../MiniPlayer";
 import ProgressBar from "../ProgressBar";
 import { useDispatch } from "react-redux";
 import { updateQnaList } from "../../store/qnaSlice";
+import Button from "../Button";
 
 const initialState = null;
 
@@ -72,6 +73,9 @@ export default function Quiz() {
       setCurrentQuestion((prevCurrent) => prevCurrent - 1);
     }
   }
+  const handleNavigate = () => {
+    history("/login");
+  };
 
   // submit quiz
   async function submit() {
@@ -91,12 +95,15 @@ export default function Quiz() {
   // calculate percentage of progress
   const percentage =
     questions.length > 0 ? ((currentQuestion + 1) / questions.length) * 100 : 0;
-
-  console.log(percentage);
   return (
     <>
       {loading && <div>Loading ...</div>}
-      {error && <div>There was an error!</div>}
+      {error && (
+        <>
+          <div>There was an error!</div>
+          <Button onClick={handleNavigate}>Please Login</Button>
+        </>
+      )}
       {!loading && !error && qna && qna.length > 0 && (
         <>
           <h1>{qna[currentQuestion].title}</h1>
