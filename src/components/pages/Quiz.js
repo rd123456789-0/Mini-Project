@@ -7,6 +7,8 @@ import useQuestions from "../../hooks/useQuestions";
 import Answers from "../Answers";
 import MiniPlayer from "../MiniPlayer";
 import ProgressBar from "../ProgressBar";
+import { useDispatch } from "react-redux";
+import { updateQnaList } from "../../store/qnaSlice";
 
 const initialState = null;
 
@@ -34,6 +36,7 @@ export default function Quiz() {
   const { id } = useParams();
   const { loading, error, questions } = useQuestions(id);
   const [currentQuestion, setCurrentQuestion] = useState(0);
+  const qnaSetter = useDispatch();
 
   const [qna, dispatch] = useReducer(reducer, initialState);
   const { currentUser } = useAuth();
@@ -80,6 +83,7 @@ export default function Quiz() {
     await set(resultRef, {
       [id]: qna,
     });
+    qnaSetter(updateQnaList({qna}))
     console.log(qna);
     history(`/result/${id}`);
   }

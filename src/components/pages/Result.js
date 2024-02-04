@@ -4,6 +4,7 @@ import useAnswers from "../../hooks/useAnswers";
 import Analysis from "../Analysis";
 import Summary from "../Summary";
 import { useReducer } from "react";
+import { useSelector } from "react-redux";
 
 const initialState = null;
 
@@ -30,7 +31,7 @@ const reducer = (state, action) => {
 export default function Result() {
   const { id } = useParams();
 
-  const [qna] = useReducer(reducer, initialState);
+  const { qna } = useSelector(state => state.qna);
 
   const { loading: nowLoading, error: error1, answers } = useAnswers(id);
 
@@ -43,13 +44,14 @@ export default function Result() {
 
       console.log(qna);
 
-      qna && question.options.forEach((option, index2) => {
-        if (option.correct) correctIndexes.push(index2);
-        if (qna[index1].options[index2].checked) {
-          checkedIndexes.push(index2);
-          option.checked = true;
-        }
-      });
+      qna &&
+        question.options.forEach((option, index2) => {
+          if (option.correct) correctIndexes.push(index2);
+          if (qna[index1].options[index2].checked) {
+            checkedIndexes.push(index2);
+            option.checked = true;
+          }
+        });
 
       if (_.isEqual(correctIndexes, checkedIndexes)) {
         score = score + 5;
