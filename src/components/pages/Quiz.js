@@ -44,6 +44,7 @@ export default function Quiz() {
       type: "questions",
       value: questions,
     });
+    qna && console.log(qna.length);
   }, [questions]);
 
   function handleAnswerChange(e, index) {
@@ -79,18 +80,15 @@ export default function Quiz() {
     await set(resultRef, {
       [id]: qna,
     });
-
-    history({
-      pathname: `/result/${id}`,
-      state: {
-        qna,
-      },
-    });
+    console.log(qna);
+    history(`/result/${id}`);
   }
 
   // calculate percentage of progress
   const percentage =
     questions.length > 0 ? ((currentQuestion + 1) / questions.length) * 100 : 0;
+
+  console.log(percentage);
   return (
     <>
       {loading && <div>Loading ...</div>}
@@ -100,6 +98,7 @@ export default function Quiz() {
           <h1>{qna[currentQuestion].title}</h1>
           <h4>Question can have multiple answers</h4>
           <Answers
+            input
             options={qna[currentQuestion].options}
             handleChange={handleAnswerChange}
           />
