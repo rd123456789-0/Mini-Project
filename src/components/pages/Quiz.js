@@ -83,7 +83,7 @@ export default function Quiz() {
     await set(resultRef, {
       [id]: qna,
     });
-    qnaSetter(updateQnaList({qna}))
+    qnaSetter(updateQnaList({ qna }));
     console.log(qna);
     history(`/result/${id}`);
   }
@@ -112,7 +112,7 @@ export default function Quiz() {
             submit={submit}
             progress={percentage}
           />
-          <MiniPlayer />
+          <MiniPlayer id={id} title={qna[currentQuestion].title} />
         </>
       )}
     </>
