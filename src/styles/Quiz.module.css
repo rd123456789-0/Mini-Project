@@ -1,0 +1,10 @@
+.flexLogin {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: 2;
+    align-items: center;
+}
+
+.buttoncss {
+    max-height: 40px;
+}

@@ -10,6 +10,8 @@ import ProgressBar from "../ProgressBar";
 import { useDispatch } from "react-redux";
 import { updateQnaList } from "../../store/qnaSlice";
 import Button from "../Button";
+import pleaselogin from "../../assets/images/pleaselogin.svg";
+import classes from "../../styles/Quiz.module.css";
 
 const initialState = null;
 
@@ -99,10 +101,12 @@ export default function Quiz() {
     <>
       {loading && <div>Loading ...</div>}
       {error && (
-        <>
-          <div>There was an error!</div>
-          <Button onClick={handleNavigate}>Please Login</Button>
-        </>
+        <div className={classes.flexLogin}>
+          <img src={pleaselogin} alt="" />
+          <Button onClick={handleNavigate} className={classes.buttoncss}>
+            Please Login
+          </Button>
+        </div>
       )}
       {!loading && !error && qna && qna.length > 0 && (
         <>

@@ -40,142 +40,70 @@
     "cSOAoB6PwE4": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var"
+              "title": "4"
             },
             {
-              "title": "with let"
+              "title": "2"
             },
             {
-              "title": "with const"
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
+              "title": "2"
             },
             {
-              "title": "October 1999"
+              "title": "5"
             },
             {
-              "title": "September 1995"
+              "title": "3"
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "2"
             },
             {
-              "title": "Netscape"
+              "title": "3"
             },
             {
-              "title": "Jack Ma"
+              "title": "1"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021"
+              "title": "5"
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }
@@ -184,142 +112,70 @@
     "1jrptqhUpbo": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var"
+              "title": "4"
             },
             {
-              "title": "with let"
+              "title": "2"
             },
             {
-              "title": "with const"
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
+              "title": "2"
             },
             {
-              "title": "October 1999"
+              "title": "5"
             },
             {
-              "title": "September 1995"
+              "title": "3"
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "2"
             },
             {
-              "title": "Netscape"
+              "title": "3"
             },
             {
-              "title": "Jack Ma"
+              "title": "1"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021"
+              "title": "5"
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }
@@ -328,142 +184,70 @@
     "sMxmXuzEiE8": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var"
+              "title": "4"
             },
             {
-              "title": "with let"
+              "title": "2"
             },
             {
-              "title": "with const"
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
+              "title": "2"
             },
             {
-              "title": "October 1999"
+              "title": "5"
             },
             {
-              "title": "September 1995"
+              "title": "3"
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "2"
             },
             {
-              "title": "Netscape"
+              "title": "3"
             },
             {
-              "title": "Jack Ma"
+              "title": "1"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021"
+              "title": "5"
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }
@@ -472,142 +256,70 @@
     "Z_xu2bvg8yw": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var"
+              "title": "4"
             },
             {
-              "title": "with let"
+              "title": "2"
             },
             {
-              "title": "with const"
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
+              "title": "2"
             },
             {
-              "title": "October 1999"
+              "title": "5"
             },
             {
-              "title": "September 1995"
+              "title": "3"
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "2"
             },
             {
-              "title": "Netscape"
+              "title": "3"
             },
             {
-              "title": "Jack Ma"
+              "title": "1"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021"
+              "title": "5"
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }
@@ -616,142 +328,70 @@
     "BGDyBz6K7Oo": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var"
+              "title": "4"
             },
             {
-              "title": "with let"
+              "title": "2"
             },
             {
-              "title": "with const"
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
+              "title": "2"
             },
             {
-              "title": "October 1999"
+              "title": "5"
             },
             {
-              "title": "September 1995"
+              "title": "3"
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "2"
             },
             {
-              "title": "Netscape"
+              "title": "3"
             },
             {
-              "title": "Jack Ma"
+              "title": "1"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021"
+              "title": "5"
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }
@@ -760,142 +400,70 @@
     "tGoycMIvHsQ": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var"
+              "title": "4"
             },
             {
-              "title": "with let"
+              "title": "2"
             },
             {
-              "title": "with const"
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
+              "title": "2"
             },
             {
-              "title": "October 1999"
+              "title": "5"
             },
             {
-              "title": "September 1995"
+              "title": "3"
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "2"
             },
             {
-              "title": "Netscape"
+              "title": "3"
             },
             {
-              "title": "Jack Ma"
+              "title": "1"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021"
+              "title": "5"
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }
@@ -904,142 +472,70 @@
     "RWpQXFEWu9M": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var"
+              "title": "4"
             },
             {
-              "title": "with let"
+              "title": "2"
             },
             {
-              "title": "with const"
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
+              "title": "2"
             },
             {
-              "title": "October 1999"
+              "title": "5"
             },
             {
-              "title": "September 1995"
+              "title": "3"
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "2"
             },
             {
-              "title": "Netscape"
+              "title": "3"
             },
             {
-              "title": "Jack Ma"
+              "title": "1"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021"
+              "title": "5"
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }
@@ -1050,149 +546,75 @@
     "cSOAoB6PwE4": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var",
+              "title": "4",
               "correct": true
             },
             {
-              "title": "with let",
-              "correct": true
+              "title": "2"
             },
             {
-              "title": "with const",
-              "correct": true
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "September 1993"
+              "title": "5"
             },
             {
-              "title": "August 1990"
+              "title": "3"
             },
             {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0",
+              "correct": true
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "Jack Ma"
+              "title": "3"
             },
             {
-              "title": "Nayok Razzaq"
+              "title": "1"
             },
             {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021",
+              "title": "5",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }
@@ -1201,149 +623,75 @@
     "1jrptqhUpbo": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var",
+              "title": "4",
               "correct": true
             },
             {
-              "title": "with let",
-              "correct": true
+              "title": "2"
             },
             {
-              "title": "with const",
-              "correct": true
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "September 1993"
+              "title": "5"
             },
             {
-              "title": "August 1990"
+              "title": "3"
             },
             {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0",
+              "correct": true
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "Jack Ma"
+              "title": "3"
             },
             {
-              "title": "Nayok Razzaq"
+              "title": "1"
             },
             {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021",
+              "title": "5",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }
@@ -1352,149 +700,75 @@
     "sMxmXuzEiE8": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var",
+              "title": "4",
               "correct": true
             },
             {
-              "title": "with let",
-              "correct": true
+              "title": "2"
             },
             {
-              "title": "with const",
-              "correct": true
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "September 1993"
+              "title": "5"
             },
             {
-              "title": "August 1990"
+              "title": "3"
             },
             {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0",
+              "correct": true
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "Jack Ma"
+              "title": "3"
             },
             {
-              "title": "Nayok Razzaq"
+              "title": "1"
             },
             {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021",
+              "title": "5",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }
@@ -1503,149 +777,75 @@
     "Z_xu2bvg8yw": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var",
+              "title": "4",
               "correct": true
             },
             {
-              "title": "with let",
-              "correct": true
+              "title": "2"
             },
             {
-              "title": "with const",
-              "correct": true
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "September 1993"
+              "title": "5"
             },
             {
-              "title": "August 1990"
+              "title": "3"
             },
             {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0",
+              "correct": true
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "Jack Ma"
+              "title": "3"
             },
             {
-              "title": "Nayok Razzaq"
+              "title": "1"
             },
             {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021",
+              "title": "5",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }
@@ -1654,149 +854,75 @@
     "BGDyBz6K7Oo": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var",
+              "title": "4",
               "correct": true
             },
             {
-              "title": "with let",
-              "correct": true
+              "title": "2"
             },
             {
-              "title": "with const",
-              "correct": true
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "September 1993"
+              "title": "5"
             },
             {
-              "title": "August 1990"
+              "title": "3"
             },
             {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0",
+              "correct": true
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "Jack Ma"
+              "title": "3"
             },
             {
-              "title": "Nayok Razzaq"
+              "title": "1"
             },
             {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021",
+              "title": "5",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }
@@ -1805,149 +931,75 @@
     "tGoycMIvHsQ": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var",
+              "title": "4",
               "correct": true
             },
             {
-              "title": "with let",
-              "correct": true
+              "title": "2"
             },
             {
-              "title": "with const",
-              "correct": true
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "September 1993"
+              "title": "5"
             },
             {
-              "title": "August 1990"
+              "title": "3"
             },
             {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0",
+              "correct": true
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "Jack Ma"
+              "title": "3"
             },
             {
-              "title": "Nayok Razzaq"
+              "title": "1"
             },
             {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021",
+              "title": "5",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }
@@ -1956,149 +1008,75 @@
     "RWpQXFEWu9M": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "How many legs does an Elephant have?",
           "options": [
             {
-              "title": "with var",
+              "title": "4",
               "correct": true
             },
             {
-              "title": "with let",
-              "correct": true
+              "title": "2"
             },
             {
-              "title": "with const",
-              "correct": true
+              "title": "5"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "10"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Select all the eeven numbers",
           "options": [
             {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "September 1993"
+              "title": "5"
             },
             {
-              "title": "August 1990"
+              "title": "3"
             },
             {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "0",
+              "correct": true
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "How many hands does a person have?",
           "options": [
             {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
+              "title": "2",
               "correct": true
             },
             {
-              "title": "Jack Ma"
+              "title": "3"
             },
             {
-              "title": "Nayok Razzaq"
+              "title": "1"
             },
             {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "5"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "How many fingers are there in one hand?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "3"
             },
             {
-              "title": "ES2021",
+              "title": "5",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": "2"
             },
             {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
+              "title": "6"
             }
           ]
         }

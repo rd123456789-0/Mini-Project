@@ -23,8 +23,18 @@ export default function Account() {
         </>
       ) : (
         <>
-          <Link to="/signup">Signup</Link>
-          <Link to="/login">Login</Link>
+          <Link
+            to="/signup"
+            style={{ color: "#16DB93", fontSize: "medium", fontWeight: 500 }}
+          >
+            Signup
+          </Link>
+          <Link
+            to="/login"
+            style={{ color: "#16DB93", fontSize: "medium", fontWeight: 500 }}
+          >
+            Login
+          </Link>
         </>
       )}
     </div>
