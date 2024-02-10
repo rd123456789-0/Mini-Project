@@ -8,17 +8,19 @@ import Quiz from "./pages/Quiz";
 import { Route, Routes } from "react-router-dom";
 import { AuthProvider } from "../contexts/AuthContext";
 import { HomePage } from "./pages/HomePage";
+import { VideoPage } from "./pages/VideoPage";
 export default function App() {
   return (
-    <AuthProvider >
+    <AuthProvider>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/home" element={<HomePage/>} />
+          <Route path="/home" element={<HomePage />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/video/:id" element={<VideoPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/quiz/:id" element={<Quiz />} />
-          <Route path="/result/:id" element={<Result />} /> 
+          <Route path="/result/:id" element={<Result />} />
         </Routes>
       </Layout>
     </AuthProvider>

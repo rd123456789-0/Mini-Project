@@ -1,0 +1,16 @@
+.player {
+    width: 800px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    animation: miniplayerAnim 0.3s ease forwards;
+    margin: 0 auto;
+  }
+
+.attemptquiz {
+    margin-top: 2rem;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: 1;
+}
