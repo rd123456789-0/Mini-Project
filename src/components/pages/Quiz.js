@@ -12,6 +12,7 @@ import { updateQnaList } from "../../store/qnaSlice";
 import Button from "../Button";
 import pleaselogin from "../../assets/images/pleaselogin.svg";
 import classes from "../../styles/Quiz.module.css";
+import qsvg from '../../assets/images/faq.svg.svg'
 
 const initialState = null;
 
@@ -50,7 +51,6 @@ export default function Quiz() {
       type: "questions",
       value: questions,
     });
-    qna && console.log(qna.length);
   }, [questions]);
 
   function handleAnswerChange(e, index) {
@@ -110,8 +110,14 @@ export default function Quiz() {
       )}
       {!loading && !error && qna && qna.length > 0 && (
         <>
-          <h1>{qna[currentQuestion].title}</h1>
-          <h4>Question can have multiple answers</h4>
+          <div style={{display: "flex"}}>
+            <div>
+              <h1>{qna[currentQuestion].title}</h1>
+              <h4>Question can have multiple answers</h4>
+            </div>
+            <img src={qsvg} alt="" />
+          </div>
+          
           <Answers
             input
             options={qna[currentQuestion].options}

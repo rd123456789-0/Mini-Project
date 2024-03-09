@@ -14,8 +14,8 @@ export default function App() {
     <AuthProvider>
       <Layout>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/video/:id" element={<VideoPage />} />
           <Route path="/login" element={<Login />} />

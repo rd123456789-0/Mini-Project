@@ -5,7 +5,7 @@ import { Link, useParams } from "react-router-dom";
 import classes from "../../styles/VideoPage.module.css";
 
 export const VideoPage = () => {
-    const { id } = useParams();
+  const { id } = useParams();
   const [status, setStatus] = useState(false);
   const videoUrl = `https://www.youtube.com/watch?v=${id}`;
 
@@ -23,8 +23,8 @@ export const VideoPage = () => {
       <ReactPlayer
         className={classes.player}
         url={videoUrl}
-        width="1200px"
-        height="600px"
+        width="100%"
+        height="100%"
         playing={status}
         controls
       />

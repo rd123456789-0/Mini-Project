@@ -1,9 +1,10 @@
 .player {
-    width: 800px;
+    width: 600px;
+    height: 400px;
     aspect-ratio: 16 / 9;
     object-fit: cover;
     animation: miniplayerAnim 0.3s ease forwards;
-    margin: 0 auto;
+    margin: 0 ;
   }
 
 .attemptquiz {
@@ -13,4 +14,11 @@
 .flex {
     display: flex;
     flex-wrap: 1;
+}
+
+@media (max-width: 550px) {
+    .player{
+        width: 100px;
+        height: 200px;
+    }
 }
