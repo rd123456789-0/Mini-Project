@@ -1,28 +1,32 @@
 import { Link } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import classes from "../styles/Account.module.css";
+import { Timer } from "./Timer";
 
 export default function Account() {
   const { currentUser, logout } = useAuth();
   return (
-    <div className={classes.account}>
+    <div className={currentUser ? classes.account : classes.log}>
       {currentUser ? (
         <>
-          <span className="material-icons-outlined" title="Account">
-            account_circle
-          </span>
-          <span>{currentUser.displayName}</span>
-          <span
-            className="material-icons-outlined"
-            title="Logout"
-            onClick={logout}
-          >
-            {" "}
-            logout{" "}
-          </span>
+          <Timer start={{ initialMinute: 2, initialSecond: 0 }} />
+          <div>
+            <span className="material-icons-outlined" title="Account">
+              account_circle
+            </span>
+            <span>{currentUser.displayName}</span>
+            <span
+              className="material-icons-outlined"
+              title="Logout"
+              onClick={logout}
+            >
+              {" "}
+              logout{" "}
+            </span>
+          </div>
         </>
       ) : (
-        <>
+        <div className={classes.log}>
           <Link
             to="/signup"
             style={{ color: "#16DB93", fontSize: "medium", fontWeight: 500 }}
@@ -35,7 +39,7 @@ export default function Account() {
           >
             Login
           </Link>
-        </>
+        </div>
       )}
     </div>
   );
