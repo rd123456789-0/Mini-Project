@@ -13,6 +13,7 @@ import Button from "../Button";
 import pleaselogin from "../../assets/images/pleaselogin.svg";
 import classes from "../../styles/Quiz.module.css";
 import qsvg from '../../assets/images/faq.svg.svg'
+import { TextToSpeech } from "../TextToSpeech";
 
 const initialState = null;
 
@@ -114,6 +115,7 @@ export default function Quiz() {
             <div>
               <h1>{qna[currentQuestion].title}</h1>
               <h4>Question can have multiple answers</h4>
+              <TextToSpeech text={qna[currentQuestion].title} />
             </div>
             <img src={qsvg} alt="" />
           </div>

@@ -1,5 +1,6 @@
 import image from "../assets/images/success.png";
 import classes from "../styles/Summary.module.css";
+import { TextToSpeech } from "./TextToSpeech";
 
 export default function Summary({ score, noq }) {
   return (
@@ -10,6 +11,7 @@ export default function Summary({ score, noq }) {
           {score} out of {noq * 5}
         </p>
       </div>
+      <TextToSpeech text={`Your Score is ${score} out of ${noq * 5}`} />
 
       <div className={classes.badge}>
         <img src={image} alt="Success" />
