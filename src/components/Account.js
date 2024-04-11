@@ -10,11 +10,11 @@ export default function Account() {
       {currentUser ? (
         <>
           <Timer start={{ initialMinute: 20, initialSecond: 0 }} />
-          <div>
+          <div className={classes.special}>
             <span className="material-icons-outlined" title="Account">
               account_circle
             </span>
-            <span>{currentUser.displayName}</span>
+            <p>{currentUser.displayName}</p>
             <span
               className="material-icons-outlined"
               title="Logout"

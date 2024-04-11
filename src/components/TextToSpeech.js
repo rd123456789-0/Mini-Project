@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import classes from '../styles/TextToSpeech.module.css'
 
 export const TextToSpeech = ({ text }) => {
   const [isPaused, setIsPaused] = useState(false);
@@ -30,12 +31,12 @@ export const TextToSpeech = ({ text }) => {
 
   return (
     <div>
-      <button onClick={handlePlay}>
+      <button onClick={handlePlay} className={classes.button}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
+          width="24"
+          height="24"
+          fill="#000000"
           class="bi bi-mic-fill"
           viewBox="0 0 16 16"
         >

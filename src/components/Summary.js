@@ -10,8 +10,8 @@ export default function Summary({ score, noq }) {
         Your score is <br />
           {score} out of {noq * 5}
         </p>
+        <TextToSpeech text={`Your Score is ${score} out of ${noq * 5}`} />
       </div>
-      <TextToSpeech text={`Your Score is ${score} out of ${noq * 5}`} />
 
       <div className={classes.badge}>
         <img src={image} alt="Success" />
