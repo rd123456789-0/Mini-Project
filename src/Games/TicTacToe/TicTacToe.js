@@ -109,7 +109,7 @@ function TicTacToe() {
                                 }}
                             >
                                 {winner === "x | o"
-                                    ? "No Winner :/"
+                                    ? "No Winner :"
                                     : "Win !! :)"}
                             </motion.h2>
                             <motion.div

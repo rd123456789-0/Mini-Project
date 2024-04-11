@@ -17,7 +17,7 @@ export const VideoPage = () => {
     }
   }
   return (
-    <div className="flex" onClick={toggleMiniPlayer}>
+    <div onClick={toggleMiniPlayer}>
       <ReactPlayer
         className={classes.player}
         url={videoUrl}
@@ -27,9 +27,15 @@ export const VideoPage = () => {
         controls
       />
 
+      <div className={classes.buttons}>
       <Link to={`/quiz/${id}`}>
         <Button className={classes.attemptquiz}>Attempt Quiz</Button>
       </Link>
+      
+      <Link to={`/games`}>
+        <Button className={classes.attemptquiz}>Play Games</Button>
+      </Link>
+      </div>
     </div>
   );
 };

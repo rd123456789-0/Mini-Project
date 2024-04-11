@@ -4,6 +4,10 @@ import useAnswers from "../../hooks/useAnswers";
 import Analysis from "../Analysis";
 import Summary from "../Summary";
 import { useSelector } from "react-redux";
+import { Link } from 'react-router-dom';
+import Button from "../Button";
+import classes from '../../styles/Button.module.css'
+
 
 export default function Result() {
   const { id } = useParams();
@@ -47,6 +51,14 @@ export default function Result() {
         <>
           <Summary score={userScore} noq={answers.length} />
           <Analysis answers={answers} />
+          
+          <Link to={`/`}>
+            <Button
+              className={classes.attemptquiz}
+            >
+              Back To Home
+            </Button>
+          </Link>
         </>
       )}
     </>
