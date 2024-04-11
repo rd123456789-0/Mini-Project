@@ -34,7 +34,7 @@ export const Timer = ({ start }) => {
     <div>
       {minutes === 0 && seconds === 0 ? null : (
         <h1>
-          {" Time Left : "}
+          {" Logging Out In : "}
           {minutes}:{seconds < 10 ? `0${seconds}` : seconds}
         </h1>
       )}

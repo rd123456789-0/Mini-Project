@@ -9,6 +9,7 @@ import { Route, Routes } from "react-router-dom";
 import { AuthProvider } from "../contexts/AuthContext";
 import { HomePage } from "./pages/HomePage";
 import { VideoPage } from "./pages/VideoPage";
+import { Games } from "../Games";
 export default function App() {
   return (
     <AuthProvider>
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/quiz/:id" element={<Quiz />} />
           <Route path="/result/:id" element={<Result />} />
+          <Route path="/games" element={<Games />}/>
         </Routes>
       </Layout>
     </AuthProvider>
