@@ -9,7 +9,7 @@ export default function Account() {
     <div className={currentUser ? classes.account : classes.log}>
       {currentUser ? (
         <>
-          <Timer start={{ initialMinute: 20, initialSecond: 0 }} />
+          <Timer start={{ initialMinute: 100, initialSecond: 0 }} />
           <div className={classes.special}>
             <span className="material-icons-outlined" title="Account">
               account_circle

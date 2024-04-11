@@ -91,7 +91,6 @@ export default function Quiz() {
       [id]: qna,
     });
     qnaSetter(updateQnaList({ qna }));
-    console.log(qna);
     history(`/result/${id}`);
   }
 

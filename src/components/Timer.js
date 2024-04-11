@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 
 export const Timer = ({ start }) => {
   const { logout } = useAuth();
+  const navigate = useNavigate();
   const { initialMinute = 0, initialSeconds = 0 } = start;
   const [minutes, setMinutes] = useState(initialMinute);
   const [seconds, setSeconds] = useState(initialSeconds);
@@ -15,6 +17,8 @@ export const Timer = ({ start }) => {
         if (minutes === 0) {
           clearInterval(myInterval);
           logout();
+          navigate('/login');
+          window.alert('Session Timed Out')
         } else {
           setMinutes(minutes - 1);
           setSeconds(59);

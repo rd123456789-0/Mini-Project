@@ -16,8 +16,6 @@ export const VideoPage = () => {
       setStatus(false);
     }
   }
-
-  console.log(id);
   return (
     <div className="flex" onClick={toggleMiniPlayer}>
       <ReactPlayer

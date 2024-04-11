@@ -37,7 +37,7 @@ export const TextToSpeech = ({ text }) => {
           width="24"
           height="24"
           fill="#000000"
-          class="bi bi-mic-fill"
+          className="bi bi-mic-fill"
           viewBox="0 0 16 16"
         >
           <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" />

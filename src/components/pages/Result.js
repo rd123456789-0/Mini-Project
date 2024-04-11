@@ -3,30 +3,7 @@ import { useParams } from "react-router-dom";
 import useAnswers from "../../hooks/useAnswers";
 import Analysis from "../Analysis";
 import Summary from "../Summary";
-import { useReducer } from "react";
 import { useSelector } from "react-redux";
-
-const initialState = null;
-
-const reducer = (state, action) => {
-  switch (action.type) {
-    case "questions":
-      action.value.forEach((question) => {
-        question.options.forEach((option) => {
-          option.checked = false;
-        });
-      });
-      return action.value;
-    case "answer":
-      const questions = _.cloneDeep(state);
-      questions[action.questionID].options[action.optionIndex].checked =
-        action.value;
-
-      return questions;
-    default:
-      return state;
-  }
-};
 
 export default function Result() {
   const { id } = useParams();
@@ -41,8 +18,6 @@ export default function Result() {
     answers.forEach((question, index1) => {
       let correctIndexes = [],
         checkedIndexes = [];
-
-      console.log(qna);
 
       qna &&
         question.options.forEach((option, index2) => {
