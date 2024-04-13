@@ -3,7 +3,6 @@ import { useState } from "react";
 import { MathGame } from "./MathGame/MathGame";
 import TicTacToe from "./TicTacToe/TicTacToe";
 import { Link } from "react-router-dom";
-// import EnglishGame from "./FormTheWords/EnglishGame";
 import classes from "./Games.module.css";
 import mathgame from "../assets/images/mathgame.png";
 import tictactoe from "../assets/images/tictactoe.png";
@@ -15,7 +14,6 @@ export const Games = () => {
     <>
       {game === "MathGame" && <MathGame />}
       {game === "TicTacToe" && <TicTacToe />}
-      {/* {game === "EnglishGame" && <EnglishGame />} */}
       {game === null && (
         <div className={classes.homeSection}>
           <button onClick={() => setGame("MathGame")}>
@@ -46,7 +44,7 @@ export const Games = () => {
       )}
       {game !== null && (
         <Link to={`/games`}>
-          <Button className={classes.attemptquiz} onClick={() => setGame(null)}>
+          <Button className={classes.attemptquiz} onClick={() => setGame(null)} style={{margin: '15px'}}>
             Back To Games
           </Button>
         </Link>

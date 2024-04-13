@@ -11,7 +11,7 @@
   }
   
   .nav ul {
-    width: 79%;
+    width: 155%;
     height: 60px;
     list-style: none;
     display: flex;
@@ -47,5 +47,9 @@
   @media only screen and (max-width: 600px) {
     .nav .brand h3 {
       display: none;
+      flex-direction: row;
+    }
+    .nav > ul > li > div > h1 {
+      font-size: medium;
     }
   }

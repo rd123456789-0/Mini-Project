@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import classes from "../styles/Account.module.css";
-import { Timer } from "./Timer";
 
 export default function Account() {
   const { currentUser, logout } = useAuth();
@@ -9,7 +8,6 @@ export default function Account() {
     <div className={currentUser ? classes.account : classes.log}>
       {currentUser ? (
         <>
-          <Timer start={{ initialMinute: 100, initialSecond: 0 }} />
           <div className={classes.special}>
             <span className="material-icons-outlined" title="Account">
               account_circle
