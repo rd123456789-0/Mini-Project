@@ -2,9 +2,11 @@ import { Link } from "react-router-dom";
 import logo from "../assets/images/logo-bg.png";
 import classes from "../styles/Nav.module.css";
 import Account from "./Account";
+import { useAuth } from "../contexts/AuthContext";
 import { Timer } from "./Timer";
 
 export default function Nav() {
+  const { currentUser } = useAuth();
   return (
     <nav className={classes.nav}>
       <ul>
@@ -16,7 +18,7 @@ export default function Nav() {
         </li>
         <li>
           
-        <Timer start={{ initialMinute: 20, initialSecond: 0 }} />
+        {currentUser && <Timer start={{ initialMinute: 20, initialSecond: 0 }} />}
         </li>
       </ul>
       <Account />
