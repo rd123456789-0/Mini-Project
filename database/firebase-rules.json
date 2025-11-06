@@ -1,9 +1,8 @@
 {
   "rules": {
-    "videos": {
-      ".read": true,
-      ".write": true
-    },
+    ".read": "auth != null",
+    ".write": "auth != null"
+  },
     "quiz": {
       ".read": "auth != null",
       ".write": "auth != null"
